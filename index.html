@@ -6,34 +6,60 @@
     </head>
     <style>
         img {height: 240px; width: 200px;}
+        h1{font-family:"Segoe Ul";
+        text-align: left; 
+        font-size: 50px;}
+        body{ background-color:antiquewhite; 
+            margin-left: 3%; 
+            margin-right: 3%; 
+            font-family: Helvetica; 
+            font-size: 20px;
+            line-height: 30px;}
+        .image{border: 2px solid black; 
+            display: inline-block; 
+            padding: 5px; 
+            background-color: aliceblue;}
+        .image2{border: 2px solid black; 
+            display: inline-block; 
+            padding: 5px; 
+            background-color: aliceblue;}
+        .image3{border: 2px solid black; 
+            display: inline-block; 
+            padding: 5px; 
+            background-color: aliceblue;}
+        footer{text-align: center;font-size: medium;}
     </style>
     <body>
-        <h2>Cat PhotoApp</h2>
+        <h1>Cat PhotoApp</h1>
         <main>
             <h3>Cat Photos</h3>
             <!--TODO! Add link to cat photos-->
             <p>Click here for more cat photo <a href="#" target="_blank">Cat Photos</a> </p>
-           <a href="#"><img src="Orange cat.jpg" alt="A cute orange cat lying on its back"></a>
-           <a href="#"><img src="Love cat.jpg" alt="A white Cute Cat"></a>
-           <a href="#"><img src="White cat.jpg" Alt="A White Lovely cats"></a>
-           <a href="#"><img src="fine cat.jpg" Alt="Fine Lovely cats"></a>
-           <a href="#"><img src="blue cap.jpg" Alt="A blue cats"></a>
+            <div class="image2">
+                <a href="#"><img src="Orange cat.jpg" alt="A cute orange cat lying on its back"></a>
+                <a href="#"><img src="Love cat.jpg" alt="A white Cute Cat"></a>
+                <a href="#"><img src="White cat.jpg" Alt="A White Lovely cats"></a>
+                <a href="#"><img src="fine cat.jpg" Alt="Fine Lovely cats"></a>
+                <a href="#"><img src="blue cap.jpg" Alt="A blue cats"></a>
+            </div>
            <h2>Cat Lists</h2>
            <div class="list">
             <p>Things cats <em>Love:</em></p>
             <ul>
-                <li>cat Nip</li>
+                <li>Cat Nip</li>
                 <li>Laser pointers</li>
                 <li>Lasagna</li>
                 <li>Gromming and being Gromed</li>
                 <li>Runnning water</li>
                 <li>Scratching and Crawling</li>
             </ul>
-            <img src="Lasagna.jpg" al="Lasagna">
-            <img src="cat on running water.png" alt="cat on running water">
-            <img src="cat nip.jpg" alt="cat nip">
-            <img src="Groomed cat.jpg" alt="grommed cat">
-            <img src="cat lasser pointer.jpg" alt="cat laser pointer">
+                <div class="image">
+                    <img src="Lasagna.jpg" al="Lasagna">
+                    <img src="cat on running water.png" alt="cat on running water">
+                    <img src="cat nip.jpg" alt="cat nip">
+                    <img src="Groomed cat.jpg" alt="grommed cat">
+                    <img src="cat lasser pointer.jpg" alt="cat laser pointer">
+                </div>
             <p>Things cats <mark>Hate:</mark></p>
             <ol>
                 <li>Flea treatment</li>
@@ -44,9 +70,11 @@
                 <li>Tummy Rub</li>
             </ol>
         </div>
-           <img src="Three cute kitten.jpg" alt="Three cute kitten">
-           <img src="tummy rub.jpg" alt="Tummy rub cat">
-           <img src="White cat.jpg" alt="white cats">
+        <div class="image3">
+            <img src="Three cute kitten.jpg" alt="Three cute kitten">
+            <img src="tummy rub.jpg" alt="Tummy rub cat">
+            <img src="White cat.jpg" alt="white cats">
+        </div>
            <form  action="/submit-cat-photo">
                 <label for="indoor"><input id="indoor"type="radio" Name="indoor-outdoor" checked> indoor</label><br>
                 <label for="outdoor"><input id="outdoor" type="radio" Name="indoor-outdoor"> outdoor</label><br>
