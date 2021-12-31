@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta http-equiv="content" content="text" charset="utf-8">
+    <title>CatPhotoApp</title>
+    </head>
+    <style>
+        img {height: 240px; width: 200px;}
+    </style>
+    <body>
+        <h2>Cat PhotoApp</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!--TODO! Add link to cat photos-->
+            <p>Click here for more cat photo <a href="#" target="_blank">Cat Photos</a> </p>
+           <a href="#"><img src="Orange cat.jpg" alt="A cute orange cat lying on its back"></a>
+           <a href="#"><img src="Love cat.jpg" alt="A white Cute Cat"></a>
+           <a href="#"><img src="White cat.jpg" Alt="A White Lovely cats"></a>
+           <a href="#"><img src="fine cat.jpg" Alt="Fine Lovely cats"></a>
+           <a href="#"><img src="blue cap.jpg" Alt="A blue cats"></a>
+           <h2>Cat Lists</h2>
+           <div class="list">
+            <p>Things cats <em>Love:</em></p>
+            <ul>
+                <li>cat Nip</li>
+                <li>Laser pointers</li>
+                <li>Lasagna</li>
+                <li>Gromming and being Gromed</li>
+                <li>Runnning water</li>
+                <li>Scratching and Crawling</li>
+            </ul>
+            <img src="Lasagna.jpg" al="Lasagna">
+            <img src="cat on running water.png" alt="cat on running water">
+            <img src="cat nip.jpg" alt="cat nip">
+            <img src="Groomed cat.jpg" alt="grommed cat">
+            <img src="cat lasser pointer.jpg" alt="cat laser pointer">
+            <p>Things cats <mark>Hate:</mark></p>
+            <ol>
+                <li>Flea treatment</li>
+                <li>Thunder</li>
+                <li><em>Other Cats</em></li>
+                <li>Cat Ride</li>
+                <li>Bath</li>
+                <li>Tummy Rub</li>
+            </ol>
+        </div>
+           <img src="Three cute kitten.jpg" alt="Three cute kitten">
+           <img src="tummy rub.jpg" alt="Tummy rub cat">
+           <img src="White cat.jpg" alt="white cats">
+           <form  action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor"type="radio" Name="indoor-outdoor" checked> indoor</label><br>
+                <label for="outdoor"><input id="outdoor" type="radio" Name="indoor-outdoor"> outdoor</label><br>
+                <label for=Loving"><input id="Loving" type="checkbox"name="Personality" checked>Loving</label><br>
+                <label for=Lazy"><input id="Lazy" type="checkbox"name="Personality">Lazy</label><br>
+                <label for=Energetic"><input id="Energetic" type="checkbox"name="Personality">Energetic</label><br>
+               <input type="text" placeholder="Cat photos URL" required><br>
+               <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>No Copyright-<a href="https://freecodecamp.org">freeCodeCamp.org</a></small></p>
+        </footer>
+    </body>
+</html>
